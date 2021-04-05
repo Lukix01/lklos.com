@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        basic: ['Inconsolata']
+      },
+      textColor: {
+        primary: '#495464'
+      }
+    },
   },
   variants: {
     extend: {},
