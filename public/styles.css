@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 
 /*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
 
@@ -31497,6 +31497,10 @@ video {
 .animate-bounce{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.fa-link {
+  color: #4b5563;
 }
 
 @media (min-width: 640px){
