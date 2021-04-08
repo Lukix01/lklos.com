@@ -7,3 +7,7 @@
 .fa-link {
     color: #4b5563;
 }
+
+.fa-link:hover {
+    color: #747c88;
+}

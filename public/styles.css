@@ -31503,6 +31503,10 @@ video {
   color: #4b5563;
 }
 
+.fa-link:hover {
+  color: #747c88;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
