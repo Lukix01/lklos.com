@@ -31504,11 +31504,16 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
-.fa-link {
+.fa-link,
+.fa-arrow-left {
   color: #4b5563;
 }
 
 .fa-link:hover {
+  color: #747c88;
+}
+
+.fa-arrow-left:hover {
   color: #747c88;
 }
 
