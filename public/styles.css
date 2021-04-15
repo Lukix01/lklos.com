@@ -31499,6 +31499,11 @@ video {
           animation: bounce 1s infinite;
 }
 
+body::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
+}
+
 .fa-link {
   color: #4b5563;
 }

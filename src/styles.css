@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+}
+
 .fa-link {
     color: #4b5563;
 }
