@@ -9,6 +9,10 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+body {
+    background-color: #1f2937;
+}
+
 .fa-link,
 .fa-arrow-left {
     color: #4b5563;

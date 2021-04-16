@@ -1,25 +1,20 @@
 {
-  "name": "lklos.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lukix01/lklos.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lukix01/lklos.com/issues"
-  },
-  "homepage": "https://github.com/Lukix01/lklos.com#readme",
-  "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.4"
-  }
+    "name": "lklos",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "10.1.3",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.10",
+        "tailwindcss": "^2.1.1"
+    }
 }
