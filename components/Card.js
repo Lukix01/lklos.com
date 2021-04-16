@@ -9,6 +9,30 @@ let date2 = "3 October 2020";
 let date3 = "30 October 2020";
 let date4 = "16 April 2021";
 
+const Card = () => {
+    return (
+        <div class="text-white font-basic overflow-auto">
+            <div class="flex flex-col justify-content items-center">
+                <div class="mt-28 bg-gray-900 w-card h-64 rounded-card">
+                    <div class="ml-64 absolute">
+                        <h1 class="text-7xl text-gray-400 font-bold mt-6">{name}</h1>
+                        <h3 class="text-4xl text-gray-600 mt-2">{date}</h3>
+                        <Link
+                            href="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
+                            target="blank"
+                        >
+                            <i class="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
+                        </Link>
+                    </div>
+                    <img src="img/lukix-bot.png" class="mt-7 ml-6" />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Card;
+
 const Card1 = () => {
     return (
         <div class="text-white font-basic overflow-auto">
