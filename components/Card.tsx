@@ -20,13 +20,12 @@ const Card = () => {
             <div className="flex flex-col justify-content items-center">
                 <div className="mt-28 bg-gray-900 w-card h-64 rounded-card">
                     <div className="ml-64 absolute">
-                        <h1 className="text-7xl text-gray-400 font-bold mt-6">{name}</h1>
-                        <h3 className="text-4xl text-gray-600 mt-2">{date}</h3>
-                        <Link
-                            href="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
-                            target="blank"
-                        >
-                            <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
+                        <h1 className="text-7xl text-gray-400 font-bold mt-6">{name1}</h1>
+                        <h3 className="text-4xl text-gray-600 mt-2">{date1}</h3>
+                        <Link href="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot">
+                            <a target="blank">
+                                <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
+                            </a>
                         </Link>
                     </div>
                     <img src="img/lukix-bot.png" className="mt-7 ml-6" />
@@ -46,10 +45,7 @@ const Card1 = () => {
                     <div className="ml-64 absolute">
                         <h1 className="text-7xl text-gray-400 font-bold mt-6">{name1}</h1>
                         <h3 className="text-4xl text-gray-600 mt-2">{date1}</h3>
-                        <Link
-                            href="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
-                            target="blank"
-                        >
+                        <Link href="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot">
                             <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
                         </Link>
                     </div>
@@ -68,7 +64,7 @@ const Card2 = () => {
                     <div className="ml-64 absolute">
                         <h1 className="text-7xl text-gray-400 font-bold mt-6">{name2}</h1>
                         <h3 className="text-4xl text-gray-600 mt-2">{date2}</h3>
-                        <Link href="https://lukix.itch.io/biegnij" target="blank">
+                        <Link href="https://lukix.itch.io/biegnij">
                             <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
                         </Link>
                     </div>
@@ -86,7 +82,7 @@ const Card3 = () => {
                     <div className="ml-64 absolute">
                         <h1 className="text-7xl text-gray-400 font-bold mt-6">{name3}</h1>
                         <h3 className="text-4xl text-gray-600 mt-2">{date3}</h3>
-                        <Link href="https://lukix.itch.io/eat-it" target="blank">
+                        <Link href="https://lukix.itch.io/eat-it">
                             <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
                         </Link>
                     </div>
@@ -105,7 +101,7 @@ const Card4 = () => {
                     <div className="ml-64 absolute">
                         <h1 className="text-7xl text-gray-400 font-bold mt-6">{name4}</h1>
                         <h3 className="text-4xl text-gray-600 mt-2">{date4}</h3>
-                        <Link href="https://github.com/Lukix01/Cactais" target="blank">
+                        <Link href="https://github.com/Lukix01/Cactais">
                             <i className="mt-6 ml-72 fa-3x fas cursor-pointer fa-link"></i>
                         </Link>
                     </div>
