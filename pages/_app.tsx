@@ -1,8 +1,9 @@
 import Head from "next/head";
 import "../styles/globals.css";
 import "../public/fontawesome/css/all.min.css";
+import { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
@@ -16,4 +17,4 @@ function MyApp({ Component, pageProps }) {
     );
 }
 
-export default MyApp;
+export default App;

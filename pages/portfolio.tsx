@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Card1, Card2, Card3, Card4 } from "../components/Card";
+import Card from "../components/Card";
 
 const Portfolio = () => {
     return (
@@ -16,10 +16,30 @@ const Portfolio = () => {
                     My Projects
                 </div>
             </div>
-            <Card1 />
-            <Card2 />
-            <Card3 />
-            <Card4 />
+            <Card
+                name="Lukix Bot"
+                date="27 March 2021"
+                link="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
+                image="img/lukix-bot.png"
+            />
+            <Card
+                name="Biegnij!"
+                date="3 October 2020"
+                link="https://lukix.itch.io/biegnij"
+                image="img/biegnij.png"
+            />
+            <Card
+                name="Eat It!"
+                date="30 October 2020"
+                link="https://lukix.itch.io/eat-it"
+                image="img/eat-it.png"
+            />
+            <Card
+                name="Cactais"
+                date="16 April 2021"
+                link="https://github.com/Lukix01/Cactais"
+                image="img/cactais.png"
+            />
         </div>
     );
 };
