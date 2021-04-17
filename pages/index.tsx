@@ -14,16 +14,24 @@ export default function Home() {
             </div>
             <div className="mt-3 text-3xl flex justify-center">
                 <Link href="https://github.com/Lukix01">
-                    <div className="hover:text-gray-400 cursor-pointer">Github</div>
+                    <a target="blank">
+                        <div className="hover:text-gray-400 cursor-pointer">Github</div>
+                    </a>
                 </Link>
                 <Link href="https://twitter.com/LukiXKK">
-                    <div className="ml-7 hover:text-gray-400 cursor-pointer">Twitter</div>
+                    <a target="blank">
+                        <div className="ml-7 hover:text-gray-400 cursor-pointer">Twitter</div>
+                    </a>
                 </Link>
                 <Link href="https://discord.gg/pmpszsf7Cf">
-                    <div className="ml-7 hover:text-gray-400 cursor-pointer">Discord</div>
+                    <a target="blank">
+                        <div className="ml-7 hover:text-gray-400 cursor-pointer">Discord</div>
+                    </a>
                 </Link>
                 <Link href="mailto:lukaszklosx@gmail.com">
-                    <div className="ml-7 hover:text-gray-400 cursor-pointer">E-Mail</div>
+                    <a target="blank">
+                        <div className="ml-7 hover:text-gray-400 cursor-pointer">E-Mail</div>
+                    </a>
                 </Link>
                 <div className="ml-7 text-gray-400">|</div>
                 <Link href="/portfolio">
