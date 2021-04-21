@@ -5,18 +5,16 @@ import Card from "../components/Card";
 let visits = 0;
 
 const Portfolio = () => {
-    visits = visits + 1;
-    console.log(visits);
     return (
         <div className="text-white font-basic overflow-auto">
             <Head>
                 <title>lklos.com | Portfolio</title>
             </Head>
             <Link href="/">
-                <i className="mt-12 ml-12 fa-3x fas cursor-pointer fa-arrow-left absolute"></i>
+                <i className="mt-8 ml-8 md:mt-12 md:ml-12 fa-2x md:fa-3x fas cursor-pointer fa-arrow-left absolute"></i>
             </Link>
             <div className="flex flex-col justify-content items-center">
-                <div className="animate-pulse text-8xl mt-24 text-gray-400 font-bold">
+                <div className="animate-pulse text-5xl md:text-8xl mt-24 text-gray-400 font-bold">
                     My Projects
                 </div>
             </div>
