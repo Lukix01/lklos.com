@@ -2,8 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Card from "../components/Card";
 
-let visits = 0;
-
 const Portfolio = () => {
     return (
         <div className="text-white font-basic overflow-auto">
