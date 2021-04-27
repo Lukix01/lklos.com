@@ -1,47 +1,67 @@
 import Head from "next/head";
 import Link from "next/link";
-import Card from "../components/Card";
+import Project from "../components/Project";
 
-const Portfolio = () => {
+export default function Contact() {
     return (
-        <div className="text-white font-basic overflow-auto">
+        <div className=" text-white font-basic">
             <Head>
                 <title>lklos.com | Portfolio</title>
             </Head>
             <Link href="/">
-                <i className="mt-8 ml-8 md:mt-12 md:ml-12 fa-2x md:fa-3x fas cursor-pointer fa-arrow-left absolute"></i>
+                <i className="invisible md:visible transition duration-300  absolute md:mt-9 md:ml-40 fa-2x md:fa-3x fas cursor-pointer fa-arrow-left"></i>
             </Link>
-            <div className="flex flex-col justify-content items-center">
-                <div className="animate-pulse text-5xl md:text-8xl mt-24 text-gray-400 font-bold">
-                    My Projects
+            <div className="ml-10 md:ml-56 mt-32 md:mt-36">
+                <div className="animate-pulse text-6xl md:text-8xl text-gray-400 font-bold">
+                    My projects
                 </div>
             </div>
-            <Card
-                name="Cactais"
-                date="16 April 2021"
-                link="https://github.com/Lukix01/Cactais"
-                image="img/cactais.png"
-            />
-            <Card
-                name="Lukix Bot"
-                date="27 March 2021"
-                link="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
-                image="img/lukix-bot.png"
-            />
-            <Card
-                name="Eat It!"
-                date="30 October 2020"
-                link="https://lukix.itch.io/eat-it"
-                image="img/eat-it.png"
-            />
-            <Card
-                name="Biegnij!"
-                date="3 October 2020"
-                link="https://lukix.itch.io/biegnij"
-                image="img/biegnij.png"
-            />
+            <div className="inline-block ml-10 md:ml-56 mt-6 md:mt-12 text-5xl">
+                <div
+                    id="year"
+                    className="hidden md:block mt-6 md:mt-7 text-4xl md:text-5xl text-gray-600"
+                >
+                    2021
+                </div>
+                <div className="block md:hidden mt-6 text-3xl  text-gray-400">
+                    2021
+                </div>
+
+                <Project
+                    name="Fadau"
+                    date="27 Apr"
+                    link="https://lukix.itch.io/fadau"
+                />
+                <Project
+                    name="Cactais"
+                    date="16 Apr"
+                    link="https://github.com/Lukix01/Cactais"
+                />
+                <Project
+                    name="Lukix Bot"
+                    date="21 Mar"
+                    link="https://discord.com/oauth2/authorize?client_id=806225903713255507&permissions=592896&scope=bot"
+                />
+                <div
+                    id="year"
+                    className="hidden md:block mt-6 md:mt-7 text-4xl md:text-5xl text-gray-600"
+                >
+                    2020
+                </div>
+                <div className="block md:hidden mt-6 text-3xl  text-gray-400">
+                    2020
+                </div>
+                <Project
+                    name="Eat It!"
+                    date="30 Oct"
+                    link="https://lukix.itch.io/eat-it"
+                />
+                <Project
+                    name="Biegnij!"
+                    date="03 Oct"
+                    link="https://lukix.itch.io/biegnij"
+                />
+            </div>
         </div>
     );
-};
-
-export default Portfolio;
+}
