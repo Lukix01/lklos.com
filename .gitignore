@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-LICENSE
 
 # testing
 /coverage
@@ -12,6 +11,10 @@ LICENSE
 # next.js
 /.next/
 /out/
+
+# prisma
+/prisma
+.env
 
 # production
 /build
