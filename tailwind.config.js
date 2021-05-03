@@ -12,6 +12,10 @@ module.exports = {
             },
             textColor: {
                 primary: "#495464",
+                yellow: "#A4B638",
+                red: "#B63838",
+                green: "#38B66A",
+                blue: "#38A7B6",
             },
             spacing: {
                 card: "42rem",
@@ -19,6 +23,13 @@ module.exports = {
             borderRadius: {
                 card: "2rem",
             },
+            borderRadius: {
+                basic: "5rem",
+            },
+            backgroundColor: (theme) => ({
+                ...theme("colors"),
+                basic: "#18191A",
+            }),
         },
     },
     variants: {
