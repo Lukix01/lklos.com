@@ -8,7 +8,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                basic: ["Roboto Mono"],
+                basic: ["Roboto"],
             },
             textColor: {
                 primary: "#495464",
@@ -19,9 +19,6 @@ module.exports = {
             },
             spacing: {
                 card: "42rem",
-            },
-            borderRadius: {
-                card: "2rem",
             },
             borderRadius: {
                 basic: "5rem",
