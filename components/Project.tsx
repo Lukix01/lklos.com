@@ -2,19 +2,19 @@ import Link from "next/link";
 
 interface Project {
     name: string;
-    date: string;
+    icon: string;
     link: string;
 }
 
-const Project = ({ name, date, link }: Project) => {
+const Project = ({ name, icon, link }: Project) => {
     return (
-        <div className="tracking-lighter font-basic">
-            <div className="mt-6 md:mt-11 text-3xl md:text-5xl">
-                <div className="inline text-gray-600">{date} | </div>
-                <div className="inline transition duration-300 hover:text-gray-400">
-                    <Link href={link}>{name}</Link>
+        <div className="mt-7">
+            <Link href={link}>
+                <div className="transform duration-500 motion-safe:hover:scale-105 flex rounded-2xl w-80 h-16 bg-basic cursor-pointer">
+                    <i className={icon}></i>
+                    <div className="text-3xl m-auto pr-8">{name}</div>
                 </div>
-            </div>
+            </Link>
         </div>
     );
 };
