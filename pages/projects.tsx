@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Project from "../components/Project";
 import Layout from "../components/Layout";
 
@@ -8,9 +7,10 @@ export default function Contact() {
         <>
             <Layout
                 name="My Projects"
-                icon="my-auto ml-4 fas fa-list-alt text-yellow"
+                icon="my-auto ml-4 fas fa-list-alt"
+                color="text-yellow"
             />
-            <div className="flex flex-col items-center text-white font-basic font-bold">
+            <div className="text-white font-basic font-bold">
                 <Head>
                     <title>lklos.com | Projects</title>
                 </Head>

@@ -10,7 +10,7 @@ export default function Contact() {
                 icon="my-auto ml-4 fas fa-envelope"
                 color="text-green"
             />
-            <div className="flex flex-col items-center text-white font-basic font-bold">
+            <div className="text-white font-basic font-bold">
                 <Head>
                     <title>lklos.com | Contact</title>
                 </Head>

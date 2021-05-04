@@ -9,7 +9,7 @@ export default function Contact() {
                 icon="my-auto ml-4 fas fa-address-card"
                 color="text-blue"
             />
-            <div className="flex flex-col items-center text-white font-basic ">
+            <div className="text-white font-basic ">
                 <Head>
                     <title>lklos.com | About Me</title>
                 </Head>
