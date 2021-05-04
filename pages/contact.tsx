@@ -1,54 +1,42 @@
 import Head from "next/head";
-import Link from "next/link";
+import Project from "../components/Project";
+import Layout from "../components/Layout";
 
 export default function Contact() {
     return (
-        <div className="text-white font-basic">
-            <Head>
-                <title>lklos.com | Contact</title>
-            </Head>
-            <Link href="/">
-                <i className="invisible md:visible transition duration-300  absolute md:mt-9 md:ml-40 fa-2x md:fa-3x fas cursor-pointer fa-arrow-left"></i>
-            </Link>
-            <div className="ml-12 md:ml-56 mt-32 md:mt-48">
-                <div className="animate-pulse text-7xl md:text-8xl text-gray-400 font-bold">
-                    Contact
+        <>
+            <Layout
+                name="Contact"
+                icon="my-auto ml-4 fas fa-envelope"
+                color="text-green"
+            />
+            <div className="flex flex-col items-center text-white font-basic font-bold">
+                <Head>
+                    <title>lklos.com | Contact</title>
+                </Head>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl">
+                    <Project
+                        name="Github"
+                        icon="my-auto ml-4 fab fa-github text-white"
+                        link="https://github.com/Lukix01"
+                    />
+                    <Project
+                        name="Discord"
+                        icon="my-auto ml-4 fab fa-discord text-red"
+                        link="https://discord.gg/pmpszsf7Cf"
+                    />
+                    <Project
+                        name="Twitter"
+                        icon="my-auto ml-4 fab fa-twitter text-blue"
+                        link="https://twitter.com/LukiXKK"
+                    />
+                    <Project
+                        name="E-Mail"
+                        icon="my-auto ml-4 fas fa-envelope text-yellow"
+                        link="mailto:lukaszklosx@gmail.com"
+                    />
                 </div>
             </div>
-            <div className="inline-block ml-12 md:ml-56 mt-12 text-5xl">
-                <Link href="https://twitter.com/LukiXKK">
-                    <div
-                        id="btn"
-                        className="transition duration-300 mt-7 hover:text-gray-400 cursor-pointer"
-                    >
-                        Twitter
-                    </div>
-                </Link>
-                <Link href="https://github.com/Lukix01">
-                    <div
-                        id="btn"
-                        className="transition duration-300 mt-9 hover:text-gray-400 cursor-pointer"
-                    >
-                        Github
-                    </div>
-                </Link>
-                <Link href="mailto:lukaszklosx@gmail.com">
-                    <div
-                        id="btn"
-                        className="transition duration-300 mt-9 hover:text-gray-400 cursor-pointer"
-                    >
-                        E-Mail
-                    </div>
-                </Link>
-                <Link href="https://discord.gg/pmpszsf7Cf">
-                    <div
-                        id="btn"
-                        className="transition duration-300 mt-9 hover:text-gray-400 cursor-pointer"
-                    >
-                        Discord
-                    </div>
-                </Link>
-            </div>
-        </div>
+        </>
     );
 }
