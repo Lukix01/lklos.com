@@ -21,7 +21,7 @@ export default function Home() {
             <Button
                 name="Current Game"
                 icon="m-auto fas fa-6x fa-gamepad text-red transform duration-500 group-hover:opacity-25"
-                link="/"
+                link="https://fadau.lklos.com/"
             />
             <Button
                 name="About Me"
