@@ -13,7 +13,7 @@ export default function Contact() {
                 <Head>
                     <title>lklos.com | About Me</title>
                 </Head>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl">
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-md md:text-xl">
                     <div>
                         My name is Łukasz and I live in Poland. My greatest
                         passion is programming, which I started to be interested
