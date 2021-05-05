@@ -16,6 +16,11 @@ export default function Contact() {
                 </Head>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl">
                     <Project
+                        name="Soco"
+                        icon="my-auto ml-4 fas fa-window-restore text-red"
+                        link="https://github.com/Lukix01/Soco"
+                    />
+                    <Project
                         name="Fadau"
                         icon="my-auto ml-4 fas fa-gamepad text-blue"
                         link="https://lukix.itch.io/fadau"
