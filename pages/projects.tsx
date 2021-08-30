@@ -16,6 +16,11 @@ export default function Contact() {
                 </Head>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl">
                     <Project
+                        name="api.lklos.com"
+                        icon="my-auto ml-4 fas fa-window-restore text-red"
+                        link="https://api.lklos.com/"
+                    />
+                    <Project
                         name="Soco"
                         icon="my-auto ml-4 fas fa-window-restore text-red"
                         link="https://github.com/Lukix01/Soco"
