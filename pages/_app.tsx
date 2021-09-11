@@ -7,8 +7,7 @@ function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <link rel="shortcut icon" href="/img/logo.svg" />
-
+                <link rel="shortcut icon" href="/img/logo.png" />
                 <meta
                     name="viewport"
                     content="width=device-width,initial-scale=1"
