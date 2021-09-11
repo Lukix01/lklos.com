@@ -1,18 +1,9 @@
 import Head from "next/head";
-import Layout from "../components/Layout";
 
 export default function Contact() {
     return (
         <>
-            <Layout
-                name="About Me"
-                icon="my-auto ml-4 fas fa-address-card"
-                color="text-blue"
-            />
-            <div className="text-white font-basic ">
-                <Head>
-                    <title>lklos.com | About Me</title>
-                </Head>
+            <div className="font-basic ">
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-md md:text-xl">
                     <div>
                         My name is Łukasz and I live in Poland. My greatest

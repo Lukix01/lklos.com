@@ -1,13 +1,14 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import "../public/fontawesome/css/all.min.css";
 import { AppProps } from "next/app";
+import { NextSeo } from "next-seo";
 
 function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <link rel="shortcut icon" href="/img/icon.png" />
+                <link rel="shortcut icon" href="/img/logo.svg" />
+
                 <meta
                     name="viewport"
                     content="width=device-width,initial-scale=1"
@@ -19,6 +20,10 @@ function App({ Component, pageProps }: AppProps) {
                 <meta charSet="UTF-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             </Head>
+            <NextSeo
+                title="Łukasz Kłos"
+                description="My personal website with my portfolio and some other info about me."
+            />
             <Component {...pageProps} />
         </>
     );

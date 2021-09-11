@@ -16,13 +16,6 @@ module.exports = {
                 green: "#38B66A",
                 blue: "#38A7B6",
             },
-            borderRadius: {
-                basic: "5rem",
-            },
-            backgroundColor: (theme) => ({
-                ...theme("colors"),
-                basic: "#18191A",
-            }),
         },
     },
     variants: {
