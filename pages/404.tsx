@@ -3,7 +3,6 @@ import { useEffect } from "react";
 
 const error404 = () => {
     const router = useRouter();
-
     useEffect(() => {
         router.push("/");
     });
