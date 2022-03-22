@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #111111;
+    color: white;
+}
+
 body::-webkit-scrollbar {
     background: transparent;
     width: 0;

@@ -8,7 +8,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                basic: ["Roboto"],
+                basic: ["Caveat"],
             },
             textColor: {
                 yellow: "#A4B638",
