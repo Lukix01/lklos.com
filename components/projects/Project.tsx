@@ -1,27 +1,30 @@
 import Link from "next/link";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 interface Project {
     name: string;
+    date: string;
+    links: object[];
     description?: string;
-    link: string;
-    release: string;
 }
 
-export default function Project({ name, description, link, release }: Project) {
+export default function Project({ name, date, links, description }: Project) {
     return (
-        <div className="font-basic m-10 md:m-16">
-            <div className="bg-gray-200 bg-opacity-30 p-4 rounded-xl w-72 md:w-96">
-                <div className="text-xl bg-transparent m-auto border-4 border-opacity-40 rounded-xl p-1 border-gray-400 mr-4 inline hover:border-opacity-50 transition ">
-                    {release}
+        <div className="w-96 my-10">
+            <div className="text-4xl">{name}</div>
+            <div className="opacity-50">
+                <div className="text-2xl">{date}</div>
+                <div className="space-x-1">
+                    {links.map((link: any) => {
+                        return (
+                            <Link href={link.href}>
+                                <a target="blank">
+                                    <FontAwesomeIcon icon={link.icon} />
+                                </a>
+                            </Link>
+                        );
+                    })}
                 </div>
-                <Link href={link}>
-                    <a target="blank">
-                        <div className="text-2xl inline cursor-pointer hover:opacity-60">
-                            {name}
-                        </div>
-                    </a>
-                </Link>
-                <div className="text-gray-500 mt-2">{description}</div>
+                <div className="">{description}</div>
             </div>
         </div>
     );
