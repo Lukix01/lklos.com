@@ -8,9 +8,16 @@ interface Project {
     date: string;
     links: object[];
     description?: string;
+    projects: any;
 }
 
-export default function Project({ name, date, links, description }: Project) {
+export default function Project({
+    name,
+    date,
+    links,
+    description,
+    projects,
+}: Project) {
     return (
         <div>
             <div className="w-[27rem] my-10">
@@ -39,6 +46,9 @@ export default function Project({ name, date, links, description }: Project) {
                     <div className="">{description}</div>
                 </div>
             </div>
+            {name !== projects[projects.length - 1].name && (
+                <div className="w-20 h-0.5 mx-auto bg-neutral-800" />
+            )}
         </div>
     );
 }
