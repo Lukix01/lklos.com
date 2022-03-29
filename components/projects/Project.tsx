@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 interface Project {
     name: string;
     date: string;
@@ -18,7 +21,15 @@ export default function Project({ name, date, links, description }: Project) {
                         return (
                             <Link href={link.href}>
                                 <a target="blank">
-                                    <FontAwesomeIcon icon={link.icon} />
+                                    <FontAwesomeIcon
+                                        icon={
+                                            link.icon == "discord"
+                                                ? faDiscord
+                                                : link.icon == "github"
+                                                ? faGithub
+                                                : faLink
+                                        }
+                                    />
                                 </a>
                             </Link>
                         );
