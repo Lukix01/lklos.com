@@ -10,12 +10,6 @@ module.exports = {
             fontFamily: {
                 basic: ["Caveat"],
             },
-            textColor: {
-                yellow: "#A4B638",
-                red: "#B63838",
-                green: "#38B66A",
-                blue: "#38A7B6",
-            },
         },
     },
     variants: {
