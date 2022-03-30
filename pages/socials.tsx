@@ -11,8 +11,8 @@ export default function Socials() {
         <div className="flex h-screen font-basic">
             <div className="m-auto text-center">
                 <div className="flex">
-                    <div className="m-auto mr-4">
-                        <Button href="/" icon={faArrowLeft} />
+                    <div className="m-auto mr-3">
+                        <Button href="/" icon={faArrowLeft} small />
                     </div>
                     <div className="text-3xl">My social links</div>
                 </div>
