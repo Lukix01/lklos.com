@@ -20,7 +20,7 @@ export default function Project({
 }: Project) {
     return (
         <div>
-            <div className="w-[27rem] my-10">
+            <div className="my-10 w-[27rem]">
                 <div className="text-4xl">{name}</div>
                 <div className="opacity-50">
                     <div className="text-2xl">{date}</div>
@@ -43,11 +43,11 @@ export default function Project({
                             );
                         })}
                     </div>
-                    <div className="">{description}</div>
+                    <div>{description}</div>
                 </div>
             </div>
             {name !== projects[projects.length - 1].name && (
-                <div className="w-20 h-0.5 mx-auto bg-neutral-800" />
+                <div className="mx-auto h-0.5 w-20 bg-neutral-800" />
             )}
         </div>
     );

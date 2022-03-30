@@ -13,10 +13,10 @@
             "name": "api.lklos.com",
             "date": "2021-08-30",
             "links": [
-                { "icon": "", "href": "https://link.lklos.com/" },
+                { "icon": "", "href": "https://api.lklos.com/" },
                 { "icon": "discord", "href": "https://discord.gg/pzXZN2J" }
             ],
-            "description": "One of the best projects I made. You can create your own shortened links and manage them in simple and minimalistic dashboard."
+            "description": "My own API with different image and text endpoints to help you while making bot or website."
         }
     ]
 }
