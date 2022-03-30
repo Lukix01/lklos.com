@@ -20,7 +20,7 @@ export default function Project({
 }: Project) {
     return (
         <div>
-            <div className="my-10 w-[27rem]">
+            <div className="my-10 w-60 sm:w-[27rem]">
                 <div className="text-4xl">{name}</div>
                 <div className="opacity-50">
                     <div className="text-2xl">{date}</div>
