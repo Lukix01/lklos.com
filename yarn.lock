@@ -661,6 +661,16 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.1"
 
+"prettier-plugin-tailwindcss@^0.1.8":
+  "integrity" "sha512-hwarSBCswAXa+kqYtaAkFr3Vop9o04WOyZs0qo3NyvW8L7f1rif61wRyq0+ArmVThOuRBcJF5hjGXYk86cwemg=="
+  "resolved" "https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.1.8.tgz"
+  "version" "0.1.8"
+
+"prettier@^2.6.1", "prettier@>=2.2.0":
+  "integrity" "sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A=="
+  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.6.1.tgz"
+  "version" "2.6.1"
+
 "prisma@^2.30.3":
   "integrity" "sha512-48qYba2BIyUmXuosBZs0g3kYGrxKvo4VkSHYOuLlDdDirmKyvoY2hCYMUYHSx3f++8ovfgs+MX5KmNlP+iAZrQ=="
   "resolved" "https://registry.npmjs.org/prisma/-/prisma-2.30.3.tgz"
