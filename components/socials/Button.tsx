@@ -14,7 +14,7 @@ export default function Button({ href, icon, small }: Props) {
             <FontAwesomeIcon
                 icon={icon}
                 className={`cursor-pointer ${
-                    small ? "text-sm" : "text-2xl"
+                    small ? "text-xl" : "text-3xl"
                 } opacity-50 transition hover:opacity-70`}
             />
         </Link>

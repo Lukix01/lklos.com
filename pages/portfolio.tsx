@@ -9,7 +9,7 @@ export default function Projects() {
     return (
         <div className="flex h-screen font-basic">
             <div className="m-auto">
-                <div className="relative h-[28rem] overflow-auto">
+                <div className="relative h-[26rem] overflow-auto">
                     {projects.map((project: any) => {
                         return (
                             <div>

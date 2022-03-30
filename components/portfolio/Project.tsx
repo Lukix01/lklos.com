@@ -37,13 +37,14 @@ export default function Project({
                                                     ? faGithub
                                                     : faLink
                                             }
+                                            className="text-xl"
                                         />
                                     </a>
                                 </Link>
                             );
                         })}
                     </div>
-                    <div>{description}</div>
+                    <div className="text-xl">{description}</div>
                 </div>
             </div>
             {name !== projects[projects.length - 1].name && (
