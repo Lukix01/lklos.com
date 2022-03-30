@@ -14,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
                 />
                 <meta
                     name="keywords"
-                    content="Łukasz Kłos, Fadau, Programmer, lklos"
+                    content="Łukasz Kłos, Fadau, Linkys, Programmer, lklos"
                 ></meta>
                 <meta charSet="UTF-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
