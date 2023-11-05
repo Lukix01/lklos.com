@@ -1,14 +1,15 @@
-import { Canvas } from '@react-three/fiber';
-import { Environment } from '@react-three/drei';
-import Header from '../components/home/Header';
+import { motion } from 'framer-motion';
+import Home from '../components/home/Index';
 
-export default function Home(): JSX.Element {
+export default function Index(): JSX.Element {
   return (
-    <div className='h-screen'>
-      <Canvas orthographic camera={{ position: [ 0, 0, 100 ], zoom: 100 }}>
-        <Header />
-        <Environment preset='studio'/>
-      </Canvas>
-    </div>
+    <motion.div
+      initial={{ x: -100, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="flex h-screen"
+    >
+      <Home />
+    </motion.div>
   );
 }
