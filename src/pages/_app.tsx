@@ -3,7 +3,7 @@ import '../styles/globals.css';
 import { AppProps } from 'next/app';
 import { NextSeo } from 'next-seo';
 
-function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>
@@ -28,4 +28,3 @@ function App({ Component, pageProps }: AppProps) {
   );
 }
 
-export default App;
