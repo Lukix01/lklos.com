@@ -9,11 +9,26 @@ interface Props {
   description: string;
 }
 
+const projectAnimation = {
+  hidden: {
+    opacity: 0,
+    y: 30,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      bounce: 0,
+    },
+  },
+};
+
 export default function Project({ name, year, link, description }: Props): JSX.Element {
   const router: NextRouter = useRouter();
 
   return (
     <motion.div
+      variants={projectAnimation}
       whileHover={{ x: 5 }}
       className="flex cursor-pointer group"
       onClick={(): Promise<boolean> => router.push(link)}
