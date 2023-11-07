@@ -21,7 +21,7 @@ export default function Projects(): JSX.Element {
       variants={listAnimation}
       initial="hidden"
       animate="visible"
-      className="m-auto space-y-6"
+      className="mt-40 mx-auto space-y-6"
     >
       {projects.map((project): JSX.Element => (
         <Project
