@@ -21,7 +21,7 @@ export default function Projects(): JSX.Element {
       variants={listAnimation}
       initial="hidden"
       animate="visible"
-      className="mt-40 mx-auto space-y-6"
+      className="overflow-y-auto m-auto h-2/3 space-y-6 p-4 w-[34rem]"
     >
       {projects.map((project): JSX.Element => (
         <Project
