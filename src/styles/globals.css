@@ -7,9 +7,14 @@ body {
   color: white;
 }
 
-*::-webkit-scrollbar {
+::-webkit-scrollbar {
   background: transparent;
-  width: 0;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(164, 86%, 16%, 10%);
+  border-radius: 3px;
 }
 
 ::selection {
