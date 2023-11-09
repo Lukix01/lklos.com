@@ -2,6 +2,7 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import { AppProps } from 'next/app';
 import { NextSeo } from 'next-seo';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         description="My personal website with my projects and contact details."
       />
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
