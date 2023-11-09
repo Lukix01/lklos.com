@@ -1,6 +1,6 @@
 ## lklos.com
 
-My own website with the most important informations about me
+My personal website with my projects and contact details.
 
 ## Screenshot
 
