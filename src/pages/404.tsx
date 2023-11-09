@@ -1,12 +1,11 @@
-import { useRouter } from 'next/router';
+import { NextRouter, useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-const error404 = () => {
-  const router = useRouter();
-  useEffect(() => {
+export default function Error404(): void {
+  const router: NextRouter = useRouter();
+
+  useEffect((): void => {
     router.push('/');
   });
-  return <></>;
-};
+}
 
-export default error404;
