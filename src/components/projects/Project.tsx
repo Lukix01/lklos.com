@@ -33,7 +33,7 @@ export default function Project({ name, year, link, description }: Props): JSX.E
       className="flex cursor-pointer group"
       onClick={(): Promise<boolean> => router.push(link)}
     >
-      <ChevronDoubleRightIcon className='w-6 mr-2 text-emerald-900'/>
+      <ChevronDoubleRightIcon className='w-6 mr-2 text-emerald-900 hidden sm:block'/>
       <div className="bg-black w-full bg-opacity-20 p-4 rounded-lg">
         <div className="flex">
           <div className="text-xl text-opacity-70 group-hover:text-opacity-100 transition text-white">{name}</div>
