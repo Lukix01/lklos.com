@@ -7,11 +7,26 @@ interface Props {
   href: string;
 }
 
+const buttonAnimation = {
+  hidden: {
+    opacity: 0,
+    x: 30,
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      bounce: 0,
+    },
+  },
+};
+
 export default function Button({ name, href }: Props): JSX.Element {
   const router: NextRouter = useRouter();
 
   return (
     <motion.div
+      variants={buttonAnimation}
       whileHover={{ y: -5 }}
       className="flex m-auto cursor-pointer group"
       onClick={(): Promise<boolean> => router.push(href)}
