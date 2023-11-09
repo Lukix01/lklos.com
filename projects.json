@@ -1,22 +1,26 @@
-{
-    "projects": [
-        {
-            "name": "link.lklos.com",
-            "date": "2021-09-03",
-            "links": [
-                { "icon": "", "href": "https://link.lklos.com/" },
-                { "icon": "discord", "href": "https://discord.gg/pzXZN2J" }
-            ],
-            "description": "One of the best projects I made. You can create your own shortened links and manage them in simple and minimalistic dashboard."
-        },
-        {
-            "name": "api.lklos.com",
-            "date": "2021-08-30",
-            "links": [
-                { "icon": "", "href": "https://api.lklos.com/" },
-                { "icon": "discord", "href": "https://discord.gg/pzXZN2J" }
-            ],
-            "description": "My own API with different image and text endpoints to help you while making bot or website."
-        }
-    ]
-}
+[
+  {
+    "name": "Towny",
+    "year": "2023",
+    "link": "https://github.com/Lukix01/soundbatch",
+    "description": "Simple browser game made in 3D graphics technology."
+  },
+  {
+    "name": "Soundbatch",
+    "year": "2023",
+    "link": "https://github.com/Lukix01/soundbatch",
+    "description": "Website with free sounds for personal or commercial use."
+  },
+  {
+    "name": "Manylines",
+    "year": "2023",
+    "link": "https://www.npmjs.com/package/manylines",
+    "description": "Simple file line counter for entire directories / projects."
+  },
+  {
+    "name": "Joe",
+    "year": "2022",
+    "link": "https://discord.com/api/oauth2/authorize?client_id=806225903713255507&permissions=2147544128&scope=bot",
+    "description": "Discord bot with some basic commands made for fun."
+  }
+]
